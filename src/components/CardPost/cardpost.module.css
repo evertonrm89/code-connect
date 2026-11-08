@@ -1,0 +1,41 @@
+.h2{
+    color: #E1E1E1;
+}
+
+.p{
+    color: #E1E1E1;
+}
+
+.article{
+    background-color: #171D1F;
+    padding: 16px;
+    border-radius: 8px;
+    width: 486px;
+    height: 431px;
+    
+}
+
+.header{
+    padding: 5px;
+    background: #BCBCBC;
+    border-radius: 8px;
+}
+
+.figure img{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    margin-top: 16px;
+}
+
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header figure {
+    margin: 0;
+    position: relative;
+}

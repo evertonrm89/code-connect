@@ -4,6 +4,17 @@ const nextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   reactCompiler: true,
+  images:{
+
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        port: "",
+        pathname: "**",
+      },
+    ]
+  }
 };
 
 export default nextConfig;

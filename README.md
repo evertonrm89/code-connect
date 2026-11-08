@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Set the following environment variables in `.env` before running Prisma or the app:
+
+- `POSTGRES_PRISMA_URL`: PostgreSQL connection URL used by the app and seed script.
+- `POSTGRES_URL_NON_POOLING`: direct PostgreSQL connection URL used by Prisma Migrate.
+
+Both URLs should point to the same database. Generate the Prisma Client with
+`npx prisma generate`; apply migrations with `npx prisma migrate deploy`.
+To run `npx prisma db seed`, use Node.js 22.18 or later, which can run the
+generated TypeScript client directly.
+
 First, run the development server:
 
 ```bash

@@ -1,0 +1,35 @@
+.search-container {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  margin: 0 0 3cap 0;
+  box-sizing: border-box;
+}
+
+.search-form {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #171d1f;
+  border-radius: 4px;
+  background-color: #171d1f;
+  color: white;
+  box-sizing: border-box;
+}
+
+.search-button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #81FE88;
+  color: black;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
